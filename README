@@ -1,23 +1,8 @@
-Due date:
-    test 4/8/2021 @11:59pm
-    code 4/10/2021 @11:59pm
+PIPELINING:
 
-Assignment: 
+(1) Finished a pipelined implementation of a simple instruction set.
 
-(1) Finish a pipelined implementation of a simple instruction set.
-
-    Please look carefully at mem.v and regs.v, leave both the interface
-    and timing alone.
-
-(2) Contribute a test by adding 2 files and committing them:
-
-    - <your csid>.hex       your program
-    - <your csid>.ok        expected output
-
-(3) Answer the questions in REPORT.txt
-
-(4) Your grade will be based on correctness, performance (CPI), and quality
-    of test case
+(2) Focus on correctness and performance (CPI)
 
 Architecture
 ~~~~~~~~~~~~
@@ -58,20 +43,6 @@ Architecture
   cycles before calling "$finish". This is required in order to measure
   the CPI.
 
-
-Files you can change
-~~~~~~~~~~~~~~~~~~~~
-
-cpu.v contains an incomplete processor design
-
-
-Files you need to leave alone
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-mem.v
-regs.v
-counter.v
-clock.v
 
 The make targets/files:
 ~~~~~~~~~~~~~~~~~~~~~~~
