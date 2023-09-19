@@ -1,8 +1,8 @@
 PIPELINING:
 
-(1) Finished a pipelined implementation of a simple instruction set.
+(1) Creates a pipelined implementation of a simple instruction set.
 
-(2) Focus on correctness and performance (CPI)
+(2) Focus on correctness and performance (CPI).
 
 Architecture
 ~~~~~~~~~~~~
